@@ -1,2 +1,2 @@
-# link-generator-from-2-values
-Generate URL's from 2 pieces of form data
+# Internal tool for Spektrix for Iframe Lookup
+Generate Iframe URL's from using a domain and clientname for Spektrix clients

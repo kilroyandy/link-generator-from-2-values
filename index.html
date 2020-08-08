@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Iframe Finder</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <p>
+        Use this tool to find Spektrix Iframes for your subdomain and client
+        name of choice.
+      </p>
+      <br />
+      <h2>Subdomain</h2>
+      <input
+        type="text"
+        class="field"
+        value="system.spektrix.com"
+        placeholder="Subdomain"
+        name="domain"
+        id="domain"
+      />
+      <br />
+      <br />
+      <h2>Client Name</h2>
+      <input
+        type="text"
+        class="field"
+        placeholder="Spektrix Clientname"
+        name="clientname"
+        id="clientname"
+      />
+      <br />
+      <br />
+      <br />
+      <div class="button_cont">
+        <input type="submit" value="Generate" id="generate" class="button" />
+      </div>
+      <br />
+
+      <h2>Public</h2>
+
+      <div class="public"></div>
+
+      <h2>Login Required</h2>
+
+      <div class="secure"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
